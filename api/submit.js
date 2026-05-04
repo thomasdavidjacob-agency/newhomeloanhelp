@@ -41,7 +41,7 @@ export default async function handler(req, res) {
   try {
     await resend.emails.send({
       from: 'New Home Loan Help <leads@newhomeloanhelp.com>',
-      to: 'westlinnhomeloans@gmail.com',
+      to: 'phuonghaloans@gmail.com',
       replyTo: email,
       subject: `🏠 New Lead: ${firstName} ${lastName || ''} — ${loanType} — newhomeloanhelp.com`,
       html,
